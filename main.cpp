@@ -7,7 +7,7 @@ int main() {
     string num, str;
 
     while(true) {
-    cout << "input a ~ d or -1: \n";
+    cout << "\ninput a ~ d or -1: \n";
     cin >> str;
     if (str == "-1") break;
 
@@ -24,17 +24,17 @@ int main() {
             if (num2 !=  0) {
                 sum = num1 / num2;
             } else {
-                cout << "ZeroDivisionError.\n" << endl;
+                cout << "ZeroDivisionError\n" << endl;
                 return 1;
             }
         } else{
-            cout << "Input Error\n";
+            cout << "InputError\n";
             return 1;
         }
         cout << "result: " << sum << endl;
     }
 
-    cout << "Program end\n";
+    cout << "\nThe end of the program\n";
     return 0;
 }
 
